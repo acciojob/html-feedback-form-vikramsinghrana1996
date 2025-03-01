@@ -1,16 +1,52 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
+    <h1>Feedback Form</h1>
+    <form>
+        <table border="1" cellpadding="10" cellspacing="0">
+            <tr>
+                <th>Element</th>
+                <th>ID</th>
+                <th>Type</th>
+                <th>Attributes</th>
+                <th>Label Required</th>
+            </tr>
+            <tr>
+                <td>Name</td>
+                <td>name</td>
+                <td>Text</td>
+                <td>minlength="3", maxlength="50", required</td>
+                <td>Yes</td>
+            </tr>
+            <tr>
+                <td>Portfolio</td>
+                <td>portfolio</td>
+                <td>URL</td>
+                <td>required</td>
+                <td>Yes</td>
+            </tr>
+            <tr>
+                <td>Favorite Color</td>
+                <td>favColor</td>
+                <td>Color</td>
+                <td>N/A</td>
+                <td>Yes</td>
+            </tr>
+            <tr>
+                <td>Likeness</td>
+                <td>likeness</td>
+                <td>Range</td>
+                <td>min="1", max="100"</td>
+                <td>Yes</td>
+            </tr>
+        </table>
+        <br>
+        <button type="submit">Submit</button>
+    </form>
 </body>
-
 </html>
